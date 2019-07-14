@@ -1,0 +1,4 @@
+var str='aaa@bbb@ccc'
+console.log(str.match(/@/g))
+var res=str.replace(/@/g,"!")
+console.log(res)
