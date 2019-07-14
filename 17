@@ -1,0 +1,2 @@
+var str='я учу javascript!'
+str.length
