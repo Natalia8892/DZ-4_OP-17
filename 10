@@ -1,0 +1,5 @@
+var a=[10, 20, 30, 50, 235, 3000]
+for (var z of a) {
+	if (z/10==1 ||z/10==2||z/10==5||Math.floor(z/100)==1||Math.floor(z/100)==2||Math.floor(z/100)==5) {
+	console.log(z)
+}
