@@ -1,2 +1,7 @@
-var st=Math.pow(2,10)
-console.log(st)
+function res (x,y) {
+	var res=1
+	for (var i=0; i<y;i++) {
+	res=res*x
+  } return (res)
+}
+res(2,10)
